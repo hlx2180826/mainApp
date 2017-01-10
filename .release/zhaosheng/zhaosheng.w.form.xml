@@ -8,7 +8,7 @@
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRZVN7n" xid="titleBar1" style="font-weight:bold;font-size:large;height:48px;background-color:#006eee;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;招生就业&quot;}" __cid="cRZVN7n"> 
         <div class="x-titlebar-left cRZVN7n" xid="left1" __cid="cRZVN7n"> 
           <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cRZVN7n" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-drag&quot;}" __cid="cRZVN7n"> 
-            <i xid="i1" class="linear linear-volumehigh cRZVN7n" style="font-size:x-large;" __cid="cRZVN7n"/>  
+            <i xid="i1" class="linear linear-volumehigh icon-ios7-drag cRZVN7n" style="font-size:x-large;" __cid="cRZVN7n"/>  
             <span xid="span1" __cid="cRZVN7n" class="cRZVN7n"/>
           </a> 
         </div>  

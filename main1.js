@@ -34,8 +34,9 @@ define(function(require){
 		justep.Shell.showLeft();
 	};
 		
-	
-		
+	Model.prototype.btn_mainClick = function(event){
+
+	};
 		
 	return Model;
 });

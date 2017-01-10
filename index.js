@@ -5,14 +5,16 @@ define(function(require) {
 
 	var Model = function() {
 		this.callParent();
-		var shellImpl = new ShellImpl(this, {
-			"contentsXid" : "pages",
-			"pageMappings" : {
+
+		this.shellImpl = new ShellImpl(this, {
+			contentsXid : "pages",
+			wingXid : "wing",
+			pageMappings : {
 				"main" : {
 					url : require.toUrl('./main1.w')
 				},
 				"index" : {
-					url : require.toUrl('./index1.w')
+					url : require.toUrl('./index.w')
 				},
 				"me" : {
 					url : require.toUrl('./me.w')
@@ -30,16 +32,11 @@ define(function(require) {
 					url : require.toUrl('./login.w')
 				}
 			}
-		})
+		});
 	};
 
 	Model.prototype.modelLoad = function(event) {
 		justep.Shell.showPage("main");
-	};
-
-
-	Model.prototype.button2Click = function(event){
-		justep.Shell.showPage("zhuanye");
 	};
 
 

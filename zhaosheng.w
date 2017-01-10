@@ -10,7 +10,7 @@
       <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="招生就业" style="font-weight:bold;font-size:large;height:48px;background-color:#006eee;">
        <div class="x-titlebar-left" xid="left1">
         <a component="$UI/system/components/justep/button/button" class="btn btn-link" xid="button1" icon="icon-ios7-drag" onClick="button1Click">
-         <i xid="i1" class="linear linear-volumehigh" style="font-size:x-large;"></i>
+         <i xid="i1" class="linear linear-volumehigh icon-ios7-drag" style="font-size:x-large;"></i>
          <span xid="span1"></span></a> </div> 
        <div class="x-titlebar-title" xid="title1">招生就业</div>
        <div class="x-titlebar-right reverse" xid="right1">

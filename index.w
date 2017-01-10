@@ -7,13 +7,11 @@
   <div component="$UI/system/components/justep/wing/wing" class="x-wing" xid="wing"
     display="push"> 
     <div class="x-wing-left" xid="left"> 
-      <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar"
-        xid="titleBar1" title="设置"> 
-        <div class="x-titlebar-left" xid="div2"/>  
-        <div class="x-titlebar-title" xid="div3">栏目</div>  
-        <div class="x-titlebar-right reverse" xid="div4"/> 
-      </div> 
-    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-block" label="专业设置" xid="button2" style="margin-top:20px;font-size:22px;" icon="icon-android-contacts" bind-click="button2Click">
+      <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="设置">
+   <div class="x-titlebar-left" xid="div2"></div>
+   <div class="x-titlebar-title" xid="div3">栏目</div>
+   <div class="x-titlebar-right reverse" xid="div4"></div></div>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-block" label="专业设置" xid="button2" style="margin-top:20px;font-size:22px;" icon="icon-android-contacts" bind-click="button2Click">
    <i xid="i2" class="icon-android-storage icon-android-contacts"></i>
    <span xid="span2" style="margin-left:22px;">专业设置</span></a>
   <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-block" label="招生就业" xid="button3" style="margin-top:10px;font-size:22px;" icon="icon-ios7-cart">
@@ -26,8 +24,9 @@
    <i xid="i5" class="icon-android-image e-commerce e-commerce-quanyonghu"></i>
    <span xid="span5" style="margin-left:22px;">校园生活</span></a></div>  
     <div class="x-wing-content" xid="content1"> 
-      <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel1">
-   <div class="x-panel-content" xid="content2"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer1" src="./main1.w" autoLoad="true" routable="false"></div></div>
-   </div></div>  
+      <div class="x-wing-backdrop" xid="div1"/>  
+      <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full"
+        active="0" xid="pages" slidable="true" wrap="false"><div class="x-contents-content" xid="main"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="mainContainer" src="./main1.w"></div></div></div> 
+    </div>  
     </div> 
 </div>
