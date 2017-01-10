@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window  x-scroll-view caErQfu" component="$model/UI2/system/components/justep/window/window" design="device:m;" style="width: 100%; height: 100%;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="caErQfu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="caErQfu" class="caErQfu"/>  
+  <div class="x-scroll caErQfu" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="caErQfu"> 
+    <div class="x-content-center x-pull-down container caErQfu" xid="div1" __cid="caErQfu"> 
+      <i class="x-pull-down-img glyphicon x-icon-pull-down caErQfu" xid="i1" __cid="caErQfu"/>  
+      <span class="x-pull-down-label caErQfu" xid="span1" __cid="caErQfu">下拉刷新...</span>
+    </div>  
+    <div class="x-scroll-content caErQfu" xid="div2" __cid="caErQfu">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list caErQfu" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;courserData&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;ctime\&quot;)&gt;=40&quot;,&quot;limit&quot;:3}" __cid="caErQfu"> 
+        <ul class="x-list-template hide caErQfu" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="caErQfu"> 
+          <li xid="li1" __cid="caErQfu" class="caErQfu">
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row caErQfu" xid="courseRow" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caErQfu"> 
+              <div class="x-col x-col-fixed x-col-center caErQfu" xid="courserCol1" style="width:auto;" __cid="caErQfu">
+                <img src="" alt="" xid="image1" bind-attr-src="val(&quot;cimage&quot;)" __cid="caErQfu" class="caErQfu"/>
+              </div>  
+              <div class="x-col caErQfu" xid="courserCol2" __cid="caErQfu">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row caErQfu" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caErQfu"> 
+                  <div class="x-col caErQfu" xid="courserNameCol" __cid="caErQfu"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output caErQfu" xid="courserName" bind-style="{'color': val(&quot;ctime&quot;)&gt;=40?'red':'green'}" data-bind="component:{ref:ref(&quot;cname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="caErQfu"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row caErQfu" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caErQfu"> 
+                  <div class="x-col caErQfu" xid="courserKeshiCol" __cid="caErQfu">
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output caErQfu" xid="courserKeshi" bind-text="'课时：'+val(&quot;ctime&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="caErQfu"/>
+                  </div>
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row caErQfu" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caErQfu"> 
+                  <div class="x-col caErQfu" xid="courseTeacherCol" __cid="caErQfu">
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output caErQfu" xid="courseTeacher" data-bind="component:{ref:ref(&quot;cauthor&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="caErQfu"/>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div>  
+    <div class="x-content-center x-pull-up caErQfu" xid="div3" __cid="caErQfu"> 
+      <span class="x-pull-up-label caErQfu" xid="span2" __cid="caErQfu">加载更多...</span>
+    </div> 
+  </div>
+</div>

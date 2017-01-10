@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cRZVN7n" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cRZVN7n" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/bootstrap/tabs/tab,$model/UI2/system/components/justep/cellLayout/cellLayout,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/bootstrap/tabs/tabs,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.o-city.cRZVN7n{height: 248px; padding-top: 50px; background: url(@justepContextPath@/v_5f7e1842f82f47078e0a7f306e3ad095l_zh_CNs_d_m/mainApp/img/zhuanye4.jpg)} .x-panel.cRZVN7n x-panel-content.cRZVN7n{top: 2px} .titlebar.cRZVN7n{background: blue} h4.cRZVN7n, h5.cRZVN7n, .h5.cRZVN7n, .h6.cRZVN7n{color: rgb(85, 85, 85)} .text-white.cRZVN7n{color: rgb(255, 255, 255)} .text-success.cRZVN7n{color: rgb(50, 189, 96)} .text-danger.cRZVN7n{color: rgb(255, 119, 103)} .x-titlebar.cRZVN7n{background-color: rgba(0, 0, 0, 0)} .x-titlebar.cRZVN7n .x-titlebar-title.cRZVN7n{padding: 6px 0} .x-titlebar.cRZVN7n .x-titlebar-right.cRZVN7n .btn.cRZVN7n{padding-left: 0} .x-inputText.cRZVN7n{background-color: rgba(255, 255, 255, 0.8)} .form-control-feedback.cRZVN7n{height: 34px; line-height: 34px} .x-cards.cRZVN7n{padding-top: 0px} .img5.cRZVN7n{width: 48px; height: 48px} .img1.cRZVN7n{height: 170px} .btn.cRZVN7n i.cRZVN7n{font-size: 20px} .x-noborder.table.cRZVN7n &gt; tbody.cRZVN7n &gt; tr.cRZVN7n &gt; td.cRZVN7n{border: 0} .x-fill.table.cRZVN7n &gt; tbody.cRZVN7n &gt; tr.cRZVN7n &gt; td.cRZVN7n{padding: 0} .table-bordered.cRZVN7n &gt; thead.cRZVN7n &gt; tr.cRZVN7n &gt; th.cRZVN7n, .table-bordered.cRZVN7n &gt; tbody.cRZVN7n &gt; tr.cRZVN7n &gt; th.cRZVN7n, .table-bordered.cRZVN7n &gt; tfoot.cRZVN7n &gt; tr.cRZVN7n &gt; th.cRZVN7n, .table-bordered.cRZVN7n &gt; thead.cRZVN7n &gt; tr.cRZVN7n &gt; td.cRZVN7n, .table-bordered.cRZVN7n &gt; tbody.cRZVN7n &gt; tr.cRZVN7n &gt; td.cRZVN7n, .table-bordered.cRZVN7n &gt; tfoot.cRZVN7n &gt; tr.cRZVN7n &gt; td.cRZVN7n{border: 1px solid rgba(90, 90, 90, 0.05)} .iSale.cRZVN7n{min-height: 60vw} .iSale.cRZVN7n td.cRZVN7n{position: relative} .iSale.cRZVN7n td.cRZVN7n &gt; img.cRZVN7n{width: 100%} .iSale.cRZVN7n td.cRZVN7n &gt; .text.cRZVN7n{width: 100%; position: absolute; left: 0; bottom: 0} .iSale.cRZVN7n td.cRZVN7n &gt; .text.cRZVN7n h5.cRZVN7n:last-child{font-weight: bold} .x-tuniu.btn-group.cRZVN7n{background-color: rgb(255, 255, 255)} .x-tuniu.btn-group.cRZVN7n .btn.cRZVN7n{border-top: 0} .x-tuniu.btn-group.cRZVN7n .btn.cRZVN7n span.cRZVN7n{font-size: 12px; font-weight: normal} .x-card.btn-group.cRZVN7n .btn.active.cRZVN7n{color: rgb(50, 189, 96); padding: 0; border-top: 0} .x-tuniu.panel.cRZVN7n{margin-bottom: 10px} .x-tuniu.panel.cRZVN7n &gt; .panel-heading.cRZVN7n .panel-title.cRZVN7n{color: rgb(51, 51, 51)} .x-tuniu.cRZVN7n .panel-heading.cRZVN7n, .x-tuniu.cRZVN7n ul.cRZVN7n{border-bottom: 0} .x-tuniu.cRZVN7n .list-group-item.cRZVN7n{border-radius: 0} .x-tuniu.cRZVN7n .list-group-item.cRZVN7n:last-child{border-bottom: 0} .x-tuniu.cRZVN7n .x-nobarder.cRZVN7n{border: 0} .iEnsure.cRZVN7n{margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(90, 90, 90, 0.1)} .iEnsure.cRZVN7n .badge.cRZVN7n{display: block; width: 120px; line-height: 20px; margin: 0 auto; background-color: rgb(176, 186, 196); font-size: 14px; border-radius: 15px} .iEnsure.cRZVN7n .btn-group.cRZVN7n{width: 80%; margin: 0 auto} .iEnsure.cRZVN7n .btn-group.cRZVN7n .btn.cRZVN7n{color: rgb(176, 186, 196)} .top-trans.cRZVN7n .x-panel-top.cRZVN7n{z-index: 100} .top-trans.cRZVN7n .text-success.cRZVN7n{color: white} .top-trans.x-panel.cRZVN7n &gt; .x-panel-content.cRZVN7n{top: 0 !important} .top-trans.x-panel.cRZVN7n .no-iosstatusbar.cRZVN7n &gt; .x-panel-content.cRZVN7n{top: -20px !important}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cRZVN7n" class="cRZVN7n"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-cards x-has-iosstatusbar pcyyQz6b-iosstatusbar cRZVN7n" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cRZVN7n"> 
+    <div class="x-panel-top cRZVN7n" xid="top1" style="color:#8000FF;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRZVN7n"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRZVN7n" xid="titleBar1" style="font-weight:bold;font-size:large;height:48px;background-color:#006eee;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;招生就业&quot;}" __cid="cRZVN7n"> 
+        <div class="x-titlebar-left cRZVN7n" xid="left1" __cid="cRZVN7n"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cRZVN7n" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-drag&quot;}" __cid="cRZVN7n"> 
+            <i xid="i1" class="linear linear-volumehigh cRZVN7n" style="font-size:x-large;" __cid="cRZVN7n"/>  
+            <span xid="span1" __cid="cRZVN7n" class="cRZVN7n"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cRZVN7n" xid="title1" __cid="cRZVN7n">招生就业</div>  
+        <div class="x-titlebar-right  cRZVN7n" xid="right1" __cid="cRZVN7n"> 
+          <div class="empty cRZVN7n" __cid="cRZVN7n"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cRZVN7n" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;linear linear-chevrondowncircle&quot;}" __cid="cRZVN7n"> 
+            <i xid="i2" class="linear linear-redo linear-chevrondowncircle cRZVN7n" style="font-size:large;" __cid="cRZVN7n"/>  
+            <span xid="span2" __cid="cRZVN7n" class="cRZVN7n"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cRZVN7n" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cRZVN7n"> 
+      <div class="x-panel-content active cRZVN7n" xid="content2" style="font-size:large;" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cRZVN7n"> 
+        <div xid="div1" class="o-city text-center cRZVN7n" __cid="cRZVN7n"/>  
+        <div component="$model/UI2/system/components/bootstrap/tabs/tabs" xid="tabs5" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tabs'}" __cid="cRZVN7n" class="cRZVN7n"> 
+          <ul class="nav nav-tabs cRZVN7n" xid="ul5" __cid="cRZVN7n"> 
+            <li class="active cRZVN7n" xid="li23" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n"> 
+              <a content="div34" xid="tabItem21" __cid="cRZVN7n" class="cRZVN7n">单独招生</a> 
+            </li>  
+            <li role="presentation" xid="li25" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n" class="cRZVN7n"> 
+              <a content="div33" xid="tabItem23" __cid="cRZVN7n" class="cRZVN7n">高考招生计划</a> 
+            </li>  
+            <li xid="li21" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n" class="cRZVN7n"> 
+              <a content="div32" xid="tabItem24" __cid="cRZVN7n" class="cRZVN7n">旁听生招生</a> 
+            </li>  
+            <li xid="li24" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n" class="cRZVN7n"> 
+              <a content="div36" xid="tabItem22" __cid="cRZVN7n" class="cRZVN7n">单招模拟考试</a> 
+            </li>  
+            <li xid="li22" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n" class="cRZVN7n"> 
+              <a content="div35" xid="tabItem25" __cid="cRZVN7n" class="cRZVN7n">高考招生计划</a> 
+            </li>  
+            <li xid="li26" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRZVN7n" class="cRZVN7n"> 
+              <a content="div35" xid="tabItem6" __cid="cRZVN7n" class="cRZVN7n">就业信息</a> 
+            </li> 
+          </ul>  
+          <div class="tab-content cRZVN7n" xid="div31" __cid="cRZVN7n"> 
+            <div class="tab-pane active cRZVN7n" xid="div34" __cid="cRZVN7n"> 
+              <div class="x-cell-layout cRZVN7n" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout24" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="cRZVN7n"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:625px;HEIGHT:628px;" __cid="cRZVN7n" class="cRZVN7n">  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:128px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:121px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:120px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:黑体;FONT-SIZE:25px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独招生计划</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:57px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生专业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">合作企业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生人数</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">联考专业类</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业代码</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" style="HEIGHT:19px;" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:39px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">注：2016年河北省教育厅注册的贫困家庭女子上学期间学费全免，并且每年享受2000元的助学金资助。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:24px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独考试招生优惠政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:82px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">1、入学后，我院视获奖情况适当减免住宿费。省级三等奖、市级一等奖减免一年住宿费；省级二等奖减免两年住宿费；省级一等奖减免一年学费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:65px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">2、应往届普通高中毕业生其中两科达到B等减免一年住宿费；三科达到B等减免两年住宿费；四科达到B等减免三年住宿费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">3、企业奖学金每学期最高3000元。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:21px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年优秀在校生优惠资助政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr> 
+                </table> 
+              </div>  
+              <img src="@justepContextPath@/v_35c8abefa8184bf99b4a6db2e35924fdl_zh_CNs_d_m/mainApp/img/zhaosheng-1.jpg" alt="" xid="image1" __cid="cRZVN7n" class="cRZVN7n"/> 
+            </div>  
+            <div class="tab-pane cRZVN7n" xid="div33" __cid="cRZVN7n"> 
+              <div class="x-cell-layout cRZVN7n" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout22" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="cRZVN7n"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:625px;HEIGHT:658px;" __cid="cRZVN7n" class="cRZVN7n">  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:128px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:121px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:120px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:黑体;FONT-SIZE:25px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">计算机科学与工程系2015年高职招生计划</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:30px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;TEXT-DECORATION:underline;" __cid="cRZVN7n" class="cRZVN7n">学院代码：见报考指南 了解专业请浏览：专业设置</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:57px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生专业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">合作企业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生人数</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">联考专业类</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业代码</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" style="HEIGHT:19px;" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:39px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">注：2016年河北省教育厅注册的贫困家庭女子上学期间学费全免，并且每年享受2000元的助学金资助。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:24px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独考试招生优惠政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:82px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">1、入学后，我院视获奖情况适当减免住宿费。省级三等奖、市级一等奖减免一年住宿费；省级二等奖减免两年住宿费；省级一等奖减免一年学费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:65px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">2、应往届普通高中毕业生其中两科达到B等减免一年住宿费；三科达到B等减免两年住宿费；四科达到B等减免三年住宿费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">3、企业奖学金每学期最高3000元。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:21px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年优秀在校生优惠资助政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane cRZVN7n" xid="div32" __cid="cRZVN7n"> 
+              <div class="x-cell-layout cRZVN7n" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout23" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="cRZVN7n"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:625px;HEIGHT:958px;" __cid="cRZVN7n" class="cRZVN7n">  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:128px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:121px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:120px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:黑体;FONT-SIZE:25px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独招生计划</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:57px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生专业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">合作企业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生人数</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">联考专业类</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业代码</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" style="HEIGHT:19px;" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:39px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">注：2016年河北省教育厅注册的贫困家庭女子上学期间学费全免，并且每年享受2000元的助学金资助。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:24px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独考试招生优惠政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:82px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">1、入学后，我院视获奖情况适当减免住宿费。省级三等奖、市级一等奖减免一年住宿费；省级二等奖减免两年住宿费；省级一等奖减免一年学费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:65px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">2、应往届普通高中毕业生其中两科达到B等减免一年住宿费；三科达到B等减免两年住宿费；四科达到B等减免三年住宿费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">3、企业奖学金每学期最高3000元。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:21px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年优秀在校生优惠资助政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane cRZVN7n" xid="div36" __cid="cRZVN7n"> 
+              <div class="x-cell-layout cRZVN7n" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout25" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="cRZVN7n"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:625px;HEIGHT:958px;" __cid="cRZVN7n" class="cRZVN7n">  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:128px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:121px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:120px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:黑体;FONT-SIZE:25px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独招生计划</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:57px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生专业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">合作企业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生人数</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">联考专业类</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业代码</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" style="HEIGHT:19px;" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:39px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">注：2016年河北省教育厅注册的贫困家庭女子上学期间学费全免，并且每年享受2000元的助学金资助。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:24px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独考试招生优惠政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:82px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">1、入学后，我院视获奖情况适当减免住宿费。省级三等奖、市级一等奖减免一年住宿费；省级二等奖减免两年住宿费；省级一等奖减免一年学费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:65px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">2、应往届普通高中毕业生其中两科达到B等减免一年住宿费；三科达到B等减免两年住宿费；四科达到B等减免三年住宿费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">3、企业奖学金每学期最高3000元。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:21px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年优秀在校生优惠资助政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane cRZVN7n" xid="div35" __cid="cRZVN7n"> 
+              <div class="x-cell-layout cRZVN7n" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout21" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="cRZVN7n"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:625px;HEIGHT:958px;" __cid="cRZVN7n" class="cRZVN7n">  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:128px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:121px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:120px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell cRZVN7n" __cid="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:黑体;FONT-SIZE:25px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独招生计划</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:57px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生专业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">合作企业</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">招生人数</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">联考专业类</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #92D050; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">专业代码</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:51px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">计算机网络技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">4G网络构建订单班(含订单班)</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">河北华网智</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610202 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:40px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">数字媒体应用技术</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Simsun;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">UI感知设计方向</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">中航苹果</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">30.0</td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">61电子大类联考 </td>  
+                    <td style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle; BORDER-LEFT: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;FONT-FAMILY:Calibri;FONT-SIZE:15px;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">610210 </td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td class="first-col cRZVN7n" style="HEIGHT:19px;" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:39px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">注：2016年河北省教育厅注册的贫困家庭女子上学期间学费全免，并且每年享受2000元的助学金资助。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:24px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-SIZE:15px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年单独考试招生优惠政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:82px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">1、入学后，我院视获奖情况适当减免住宿费。省级三等奖、市级一等奖减免一年住宿费；省级二等奖减免两年住宿费；省级一等奖减免一年学费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:65px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">2、应往届普通高中毕业生其中两科达到B等减免一年住宿费；三科达到B等减免两年住宿费；四科达到B等减免三年住宿费。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n">3、企业奖学金每学期最高3000元。</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:21px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:17px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td colSpan="6" style="TEXT-ALIGN: center;VERTIAL-ALIGN: middle;FONT-FAMILY:黑体;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#FF0000;" __cid="cRZVN7n" class="cRZVN7n">2016年优秀在校生优惠资助政策</td>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr>  
+                  <tr __cid="cRZVN7n" class="cRZVN7n"> 
+                    <td style="HEIGHT:33px" class="first-col cRZVN7n" __cid="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/>  
+                    <td __cid="cRZVN7n" class="cRZVN7n"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div>  
+      <div class="x-panel-content cRZVN7n" xid="content10" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'},visible:false" __cid="cRZVN7n"/> 
+    </div>  
+    <style __cid="cRZVN7n" class="cRZVN7n">.x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyyQz6b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

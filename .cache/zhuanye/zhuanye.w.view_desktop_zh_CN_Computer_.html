@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window ciyAJze" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciyAJze" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/cellLayout/cellLayout,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/bootstrap/tabs/tab,$model/UI2/system/components/bootstrap/table/table,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/bootstrap/tabs/tabs,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.o-city.ciyAJze{height: 248px; padding-top: 50px; background: url(@justepContextPath@/v_af53d6eca6e342ca93b17f8040ed8722l_zh_CNs_desktopd_pc/mainApp/img/zhuanye1.jpg)} .x-panel.ciyAJze x-panel-content.ciyAJze{top: 2px} .x-titlebar.ciyAJze{background: red} h4.ciyAJze, h5.ciyAJze, .h5.ciyAJze, .h6.ciyAJze{color: rgb(85, 85, 85)} .text-white.ciyAJze{color: rgb(255, 255, 255)} .text-success.ciyAJze{color: rgb(50, 189, 96)} .text-danger.ciyAJze{color: rgb(255, 119, 103)} .x-titlebar.ciyAJze{background-color: rgba(0, 0, 0, 0)} .x-titlebar.ciyAJze .x-titlebar-title.ciyAJze{padding: 6px 0} .x-titlebar.ciyAJze .x-titlebar-right.ciyAJze .btn.ciyAJze{padding-left: 0} .x-inputText.ciyAJze{background-color: rgba(255, 255, 255, 0.8)} .form-control-feedback.ciyAJze{height: 34px; line-height: 34px} .x-cards.ciyAJze{padding-top: 0px} .img5.ciyAJze{width: 48px; height: 48px} .img1.ciyAJze{height: 170px} .btn.ciyAJze i.ciyAJze{font-size: 20px} .x-noborder.table.ciyAJze &gt; tbody.ciyAJze &gt; tr.ciyAJze &gt; td.ciyAJze{border: 0} .x-fill.table.ciyAJze &gt; tbody.ciyAJze &gt; tr.ciyAJze &gt; td.ciyAJze{padding: 0} .table-bordered.ciyAJze &gt; thead.ciyAJze &gt; tr.ciyAJze &gt; th.ciyAJze, .table-bordered.ciyAJze &gt; tbody.ciyAJze &gt; tr.ciyAJze &gt; th.ciyAJze, .table-bordered.ciyAJze &gt; tfoot.ciyAJze &gt; tr.ciyAJze &gt; th.ciyAJze, .table-bordered.ciyAJze &gt; thead.ciyAJze &gt; tr.ciyAJze &gt; td.ciyAJze, .table-bordered.ciyAJze &gt; tbody.ciyAJze &gt; tr.ciyAJze &gt; td.ciyAJze, .table-bordered.ciyAJze &gt; tfoot.ciyAJze &gt; tr.ciyAJze &gt; td.ciyAJze{border: 1px solid rgba(90, 90, 90, 0.05)} .iSale.ciyAJze{min-height: 60vw} .iSale.ciyAJze td.ciyAJze{position: relative} .iSale.ciyAJze td.ciyAJze &gt; img.ciyAJze{width: 100%} .iSale.ciyAJze td.ciyAJze &gt; .text.ciyAJze{width: 100%; position: absolute; left: 0; bottom: 0} .iSale.ciyAJze td.ciyAJze &gt; .text.ciyAJze h5.ciyAJze:last-child{font-weight: bold} .x-tuniu.btn-group.ciyAJze{background-color: rgb(255, 255, 255)} .x-tuniu.btn-group.ciyAJze .btn.ciyAJze{border-top: 0} .x-tuniu.btn-group.ciyAJze .btn.ciyAJze span.ciyAJze{font-size: 12px; font-weight: normal} .x-card.btn-group.ciyAJze .btn.active.ciyAJze{color: rgb(50, 189, 96); padding: 0; border-top: 0} .x-tuniu.panel.ciyAJze{margin-bottom: 10px} .x-tuniu.panel.ciyAJze &gt; .panel-heading.ciyAJze .panel-title.ciyAJze{color: rgb(51, 51, 51)} .x-tuniu.ciyAJze .panel-heading.ciyAJze, .x-tuniu.ciyAJze ul.ciyAJze{border-bottom: 0} .x-tuniu.ciyAJze .list-group-item.ciyAJze{border-radius: 0} .x-tuniu.ciyAJze .list-group-item.ciyAJze:last-child{border-bottom: 0} .x-tuniu.ciyAJze .x-nobarder.ciyAJze{border: 0} .iEnsure.ciyAJze{margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(90, 90, 90, 0.1)} .iEnsure.ciyAJze .badge.ciyAJze{display: block; width: 120px; line-height: 20px; margin: 0 auto; background-color: rgb(176, 186, 196); font-size: 14px; border-radius: 15px} .iEnsure.ciyAJze .btn-group.ciyAJze{width: 80%; margin: 0 auto} .iEnsure.ciyAJze .btn-group.ciyAJze .btn.ciyAJze{color: rgb(176, 186, 196)} .top-trans.ciyAJze .x-panel-top.ciyAJze{z-index: 100} .top-trans.ciyAJze .text-success.ciyAJze{color: white} .top-trans.x-panel.ciyAJze &gt; .x-panel-content.ciyAJze{top: 0 !important} .top-trans.x-panel.ciyAJze .no-iosstatusbar.ciyAJze &gt; .x-panel-content.ciyAJze{top: -20px !important}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ciyAJze" class="ciyAJze"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcrqmMZ3-iosstatusbar ciyAJze" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciyAJze"> 
+    <div class="x-panel-top ciyAJze" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciyAJze"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ciyAJze" xid="titleBar1" style="font-weight:bold;font-size:large;height:48px;background-color:#006eee;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;专业设置&quot;}" __cid="ciyAJze"> 
+        <div class="x-titlebar-left ciyAJze" xid="left1" __cid="ciyAJze"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link ciyAJze" xid="showleft1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},event:{click:$model._callModelFn.bind($model, 'showleft1Click')}" data-config="{&quot;icon&quot;:&quot;icon-ios7-drag&quot;}" __cid="ciyAJze"> 
+            <i xid="i1" class="linear linear-volumehigh ciyAJze" style="font-size:x-large;" __cid="ciyAJze"/>  
+            <span xid="span1" __cid="ciyAJze" class="ciyAJze"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title ciyAJze" xid="title1" __cid="ciyAJze">专业设置</div>  
+        <div class="x-titlebar-right  ciyAJze" xid="right1" __cid="ciyAJze"> 
+          <div class="empty ciyAJze" __cid="ciyAJze"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link ciyAJze" xid="showleft2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:showleft2Click" data-config="{&quot;icon&quot;:&quot;linear linear-chevrondowncircle&quot;}" __cid="ciyAJze"> 
+            <i xid="i2" class="linear linear-redo linear-chevrondowncircle ciyAJze" style="font-size:large;" __cid="ciyAJze"/>  
+            <span xid="span2" __cid="ciyAJze" class="ciyAJze"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full ciyAJze" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="ciyAJze"> 
+      <div class="x-contents-content active ciyAJze" xid="content6" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ciyAJze"> 
+        <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card x-tuniu pcjyEnye-iosstatusbar ciyAJze" xid="panel2-bukejian" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'},visible:false" __cid="ciyAJze"> 
+          <table class="table x-noborder ciyAJze" component="$model/UI2/system/components/bootstrap/table/table" xid="table1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/table/table'}" __cid="ciyAJze"> 
+            <tbody class="x-list-template ciyAJze" xid="listTemplate1" __cid="ciyAJze" data-bind="event:{click:$model._callModelFn.bind($model, {&quot;operation&quot;:&quot;shell.showPage&quot;,&quot;args&quot;:{&quot;url&quot;:&quot;js:'searchList'&quot;}})}"> 
+              <tr xid="tr2" class="text-center ciyAJze" __cid="ciyAJze"> 
+                <td xid="td1" style="width:20%;" __cid="ciyAJze" class="ciyAJze"> 
+                  <img src="@justepContextPath@/v_011fd6e22c3f481d8e0000c95952ce4el_zh_CNs_desktopd_pc/mainApp/img/wangluo-1.jpg" alt="" xid="image1" class="img5 img-responsive center-block ciyAJze" __cid="ciyAJze"/>  
+                  <div xid="div2" class="h6 ciyAJze" __cid="ciyAJze">计算机网络技术</div> 
+                </td>  
+                <td xid="td2" style="width:20%;" __cid="ciyAJze" class="ciyAJze"> 
+                  <img src="@justepContextPath@/v_326b7d7e0e4249dca02faa38e769c19cl_zh_CNs_desktopd_pc/mainApp/img/shuzimeiti-1.jpg" alt="" xid="image3" height="10%" class="img5 img-responsive center-block ciyAJze" __cid="ciyAJze"/>  
+                  <div xid="div3" class="h6 ciyAJze" __cid="ciyAJze">数字媒体应用技术</div> 
+                </td>  
+                <td xid="td3" style="width:20%;" __cid="ciyAJze" class="ciyAJze"> 
+                  <img src="@justepContextPath@/v_49fed3c92b4d4166970cb835be5f777al_zh_CNs_desktopd_pc/mainApp/img/yidongtongxin-1.png" alt="" xid="image4" height="10%" class="img5 img-responsive center-block ciyAJze" __cid="ciyAJze"/>  
+                  <div xid="div4" class="h6 ciyAJze" __cid="ciyAJze">移动通信技术</div> 
+                </td>  
+                <td xid="td4" style="width:20%;" __cid="ciyAJze" class="ciyAJze"> 
+                  <img src="@justepContextPath@/v_68362436ae0d403092d367ff4949c099l_zh_CNs_desktopd_pc/mainApp/img/yidongshangwu-1.jpg" alt="" xid="image5" height="10%" class="img5 img-responsive center-block ciyAJze" __cid="ciyAJze"/>  
+                  <div xid="div5" class="h6 ciyAJze" __cid="ciyAJze">移动商务技术</div> 
+                </td>  
+                <td xid="td5" style="width:20%;" __cid="ciyAJze" class="ciyAJze"> 
+                  <img src="@justepContextPath@/v_0ed4d0fc94974a3993796acda3f68f89l_zh_CNs_desktopd_pc/mainApp/img/yidongshangwu-1.jpg" alt="" xid="image8" height="10%" class="img5 img-responsive center-block ciyAJze" __cid="ciyAJze"/>  
+                  <div xid="div8" class="h6 ciyAJze" __cid="ciyAJze">移动商务技术</div> 
+                </td> 
+              </tr> 
+            </tbody> 
+          </table>  
+          <style __cid="ciyAJze" class="ciyAJze">.x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcjyEnye-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+        </div> 
+      </div>  
+      <div class="x-panel-content ciyAJze" xid="content2" style="font-size:large;" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ciyAJze"> 
+        <div xid="div1" class="o-city text-center ciyAJze" __cid="ciyAJze"/>  
+        <div component="$model/UI2/system/components/bootstrap/tabs/tabs" xid="tabs5" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tabs'}" __cid="ciyAJze" class="ciyAJze"> 
+          <ul class="nav nav-tabs ciyAJze" xid="ul5" __cid="ciyAJze"> 
+            <li class="active ciyAJze" xid="li23" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="ciyAJze"> 
+              <a content="div34" xid="tabItem21" __cid="ciyAJze" class="ciyAJze">计算机网络</a> 
+            </li>  
+            <li role="presentation" xid="li25" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="ciyAJze" class="ciyAJze"> 
+              <a content="div33" xid="tabItem23" __cid="ciyAJze" class="ciyAJze">数字媒体技术</a> 
+            </li>  
+            <li xid="li21" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="ciyAJze" class="ciyAJze"> 
+              <a content="div32" xid="tabItem24" __cid="ciyAJze" class="ciyAJze">移动通信</a> 
+            </li>  
+            <li xid="li24" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="ciyAJze" class="ciyAJze"> 
+              <a content="div36" xid="tabItem22" __cid="ciyAJze" class="ciyAJze">移动商务</a> 
+            </li>  
+            <li xid="li22" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="ciyAJze" class="ciyAJze"> 
+              <a content="div35" xid="tabItem25" __cid="ciyAJze" class="ciyAJze">应用(华信)</a> 
+            </li> 
+          </ul>  
+          <div class="tab-content ciyAJze" xid="div31" __cid="ciyAJze"> 
+            <div class="tab-pane active ciyAJze" xid="div34" __cid="ciyAJze"> 
+              <div class="x-cell-layout ciyAJze" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout24" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="ciyAJze"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:563px;HEIGHT:732px;" __cid="ciyAJze" class="ciyAJze">  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:243px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:30px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: center;VERTIAL-ALIGN: bottom;FONT-FAMILY:黑体;FONT-SIZE:22px;COLOR:#FF0000;" __cid="ciyAJze" class="ciyAJze">计算机网络技术专业简介</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B0F0;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 培养目标：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B0F0;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 就业方向：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">学生毕业后可在政府机关、企事业单位从事计算机网络系统管理、网络工程</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的售前咨询、项目开发、售后维护和商务（政务）应用系统的设计与管理等</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">工作。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B0F0;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 主干课程：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">程序设计基础、计算机网络技术、网络数据库、园区网构建技术、Linux服</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">务器的配置与管理、构建企业级路由网络、构建企业级交换网络、VPN和防</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">火墙技术、网络工程规划与设计、面向对象程序设计、WEB开发技术等课程等。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B0F0;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 课程简介：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">面向对象的程序设计：通过本课程的学习，使学生获得Java语言的基础</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">知识、基本技术和面向对象的编程方法。培养学生获得开发网络、多媒体程序</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的一些技能。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">linux服务器配置和管理：本课程主要是根据职业教育的特点，从网络组建的</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">技术要求和岗位能力出发，对linux服务器配置、网络服务器安全与管理、网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">服务器组建实例和网络服务器的故障诊断及维修等进行全面系统的介绍。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="3" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B0F0;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 2016单独招生计划：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane ciyAJze" xid="div33" __cid="ciyAJze"> 
+              <div class="x-cell-layout ciyAJze" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout22" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="ciyAJze"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:563px;HEIGHT:680px;" __cid="ciyAJze" class="ciyAJze">  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:243px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:30px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: center;VERTIAL-ALIGN: bottom;FONT-FAMILY:黑体;FONT-SIZE:22px;COLOR:#FF0000;" __cid="ciyAJze" class="ciyAJze">数字媒体应用技术专业简介</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B050;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 培养目标：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机多媒体技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相应职业岗位（群）所需的基础知识和专业技能，有较高计算机操作技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">能,能熟练运用多媒体技术进行平面广告设计、室内装饰（展示）设计、网页</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">设计、动画设计、影视及和多媒体作品设计与制作，并具有较强综合实践能力</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="4" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的高端技能型人才。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B050;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 就业方向：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">  从事电子出版、平面设计、广告制作、动画设计、网页设计、网站建设与维</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">护、视频及音频媒体加工、媒体集成与系统设计等工作。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B050;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 主干课程：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">  程序设计基础、计算机网络技术、图像处理、图形制作、动画设计、AutoCAD</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">绘图、3D MAX、网页设计与制作、桌面排版与印前处理、多媒体技术、网站设</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">计维护与管理、非线性编辑、广告策划与设计等。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B050;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 课程简介：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">程序设计基础：本课程属于数字媒体应用技术专业的专业基础课。通过学习可以</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">使学生掌握程序设计的基础知识、基本方法及程序设计的基本思路，达到熟练地</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">使用C语言进行程序设计的基本教学目标，同时为后续课程的开设奠定良好的理</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">论和实践基础。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="3" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #00B050;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 2016单独招生计划：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane ciyAJze" xid="div32" __cid="ciyAJze"> 
+              <div class="x-cell-layout ciyAJze" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout23" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="ciyAJze"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:563px;HEIGHT:732px;" __cid="ciyAJze" class="ciyAJze">  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:243px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:30px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: center;VERTIAL-ALIGN: bottom;FONT-FAMILY:黑体;FONT-SIZE:22px;COLOR:#FF0000;" __cid="ciyAJze" class="ciyAJze">移动通信专业简介</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #F79646;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 培养目标：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #F79646;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 就业方向：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">学生毕业后可在政府机关、企事业单位从事计算机网络系统管理、网络工程</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的售前咨询、项目开发、售后维护和商务（政务）应用系统的设计与管理等</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">工作。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #F79646;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 主干课程：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">程序设计基础、计算机网络技术、网络数据库、园区网构建技术、Linux服</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">务器的配置与管理、构建企业级路由网络、构建企业级交换网络、VPN和防</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">火墙技术、网络工程规划与设计、面向对象程序设计、WEB开发技术等课程等。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #F79646;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 课程简介：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">面向对象的程序设计：通过本课程的学习，使学生获得Java语言的基础</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">知识、基本技术和面向对象的编程方法。培养学生获得开发网络、多媒体程序</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的一些技能。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">linux服务器配置和管理：本课程主要是根据职业教育的特点，从网络组建的</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">技术要求和岗位能力出发，对linux服务器配置、网络服务器安全与管理、网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">服务器组建实例和网络服务器的故障诊断及维修等进行全面系统的介绍。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="3" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #F79646;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 2016单独招生计划：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane ciyAJze" xid="div36" __cid="ciyAJze"> 
+              <div class="x-cell-layout ciyAJze" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout25" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="ciyAJze"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:563px;HEIGHT:732px;" __cid="ciyAJze" class="ciyAJze">  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:243px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:30px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: center;VERTIAL-ALIGN: bottom;FONT-FAMILY:黑体;FONT-SIZE:22px;COLOR:#FF0000;" __cid="ciyAJze" class="ciyAJze">移动商务专业简介</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #CC04D1;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 培养目标：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #CC04D1;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 就业方向：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">学生毕业后可在政府机关、企事业单位从事计算机网络系统管理、网络工程</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的售前咨询、项目开发、售后维护和商务（政务）应用系统的设计与管理等</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">工作。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #CC04D1;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 主干课程：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">程序设计基础、计算机网络技术、网络数据库、园区网构建技术、Linux服</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">务器的配置与管理、构建企业级路由网络、构建企业级交换网络、VPN和防</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">火墙技术、网络工程规划与设计、面向对象程序设计、WEB开发技术等课程等。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #CC04D1;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 课程简介：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">面向对象的程序设计：通过本课程的学习，使学生获得Java语言的基础</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">知识、基本技术和面向对象的编程方法。培养学生获得开发网络、多媒体程序</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的一些技能。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">linux服务器配置和管理：本课程主要是根据职业教育的特点，从网络组建的</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">技术要求和岗位能力出发，对linux服务器配置、网络服务器安全与管理、网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">服务器组建实例和网络服务器的故障诊断及维修等进行全面系统的介绍。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="3" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #CC04D1;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 2016单独招生计划：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div>  
+            <div class="tab-pane ciyAJze" xid="div35" __cid="ciyAJze"> 
+              <div class="x-cell-layout ciyAJze" component="$model/UI2/system/components/justep/cellLayout/cellLayout" style="width:100%; height: 100%;" xid="cellLayout21" data-bind="component:{name:'$model/UI2/system/components/justep/cellLayout/cellLayout'}" __cid="ciyAJze"> 
+                <table cellspacing="0" cellpadding="0" style="width:100%; height: 100%;;font-size:11pt;border-collapse:collapse;table-layout:fixed;width:1px;;WIDTH:563px;HEIGHT:732px;" __cid="ciyAJze" class="ciyAJze">  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:243px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/>  
+                    <td style="WIDTH:64px" class="first-row first-cell ciyAJze" __cid="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:30px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: center;VERTIAL-ALIGN: bottom;FONT-FAMILY:黑体;FONT-SIZE:22px;COLOR:#FF0000;" __cid="ciyAJze" class="ciyAJze">计算机应用（华信）专业简介</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #4BACC6;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 培养目标：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #4BACC6;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 就业方向：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">学生毕业后可在政府机关、企事业单位从事计算机网络系统管理、网络工程</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的售前咨询、项目开发、售后维护和商务（政务）应用系统的设计与管理等</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">工作。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #4BACC6;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 主干课程：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">程序设计基础、计算机网络技术、网络数据库、园区网构建技术、Linux服</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">务器的配置与管理、构建企业级路由网络、构建企业级交换网络、VPN和防</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">火墙技术、网络工程规划与设计、面向对象程序设计、WEB开发技术等课程等。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #4BACC6;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 课程简介：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">面向对象的程序设计：通过本课程的学习，使学生获得Java语言的基础</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">知识、基本技术和面向对象的编程方法。培养学生获得开发网络、多媒体程序</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="2" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">的一些技能。</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">linux服务器配置和管理：本课程主要是根据职业教育的特点，从网络组建的</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">技术要求和岗位能力出发，对linux服务器配置、网络服务器安全与管理、网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">服务器组建实例和网络服务器的故障诊断及维修等进行全面系统的介绍。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="3" style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle; BACKGROUND-COLOR: #4BACC6;FONT-FAMILY:Simsun;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"> 2016单独招生计划：</td>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td style="TEXT-ALIGN: left;VERTIAL-ALIGN: middle;FONT-FAMILY:Simsun;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#000000;" __cid="ciyAJze" class="ciyAJze"/>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">本专业培养拥护党的基本路线，适应社会主义市场经济需要，德、智、体、</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">美全面发展，面向生产、建设、管理、服务第一线，牢固掌握计算机网络技</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">术专业相关职业岗位（群）所需的基础知识和专业技能，能进行计算机网络</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">硬件组网与调试、网络系统安装与维护、网络应用开发，并具有较强综合实</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr>  
+                  <tr __cid="ciyAJze" class="ciyAJze"> 
+                    <td style="HEIGHT:26px" class="first-col ciyAJze" __cid="ciyAJze"/>  
+                    <td colSpan="5" style="TEXT-ALIGN: left;VERTIAL-ALIGN: bottom;" __cid="ciyAJze" class="ciyAJze">践能力的高端技能型人才。</td>  
+                    <td __cid="ciyAJze" class="ciyAJze"/> 
+                  </tr> 
+                </table> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="ciyAJze" class="ciyAJze">.x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrqmMZ3-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,29 @@
+.o-titlebar{
+	background:none;
+}
+.o-titlebar i{
+	font-size:24px;
+}
+.o-user{
+	height:248px;
+	padding-top:50px;
+	background:url("./images/userbg.png");
+	background-size:100%;
+}
+.o-img{
+	width:80px;
+	height:80px;
+}
+.o-user .btn{
+	width:100px;
+	margin:15px 5px 0 5px;
+	border:1px solid #ffcfd5;
+	color:#fff;
+}
+.o-title{
+	padding-bottom:10px;
+	border-bottom:1px solid #dfdfdf;
+}
+.text-black{
+	color:#333;
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"cid":"1",
+		"cname":"WeX5 实战开发",
+		"cimage":"img/class43.png",
+		"ctime":"20",
+		"cauthor":"张三",
+		"cage":"137"
+	},
+	{
+		"cid":"2",
+		"cname":"WeX5 提高学习",
+		"cimage":"img/class43.png",
+		"ctime":"40",
+		"cauthor":"李四",
+		"cage":"237"
+	},
+	{
+		"cid":"3",
+		"cname":"WeX5 提高学习",
+		"cimage":"img/class43.png",
+		"ctime":"60",
+		"cauthor":"王五",
+		"cage":"337"
+	}
+]
